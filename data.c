@@ -5,11 +5,16 @@
 
 int main(void){
     int a1,b1,sum=0;
+    char name[8];
     srand(time(NULL));
 
 a1=rand( ) %6 +1;
 b1=rand( ) %6 +1;
 sum = a1 + b1;
+
+printf("What your name?? ->");
+    scanf("%s",name);
+    printf("Hello,%s !\n",name);
 
 printf("Rolling tha dice...\n");
 printf("Dice 1 value %d\n",a1);
