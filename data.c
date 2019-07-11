@@ -16,5 +16,10 @@ printf("Dice 1 value %d\n",a1);
 printf("Dice 2 value %d\n",b1);
 printf("Total value is %d\n",sum);
 
+if(sum>7){
+    printf("YOU WON !\n");
+}
+else printf("YOU LOST !\n");
+
 return 0;
 }
